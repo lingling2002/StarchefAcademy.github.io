@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starchef Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">Starchef Academy</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="instructors.html" class="nav-link active">Instructors</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="enroll.html" class="nav-link">Enroll</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section instructors">
+      <div class="container">
+        <h2 class="section-title">Meet Our Instructors</h2>
+        <div class="grid">
+          <div class="instructor-card">
+            <img src="images/instructor-1.jpg" alt="Chef River Gonzales">
+            <h3>Chef Tricia Gonzales</h3>
+            <p>Culinary Fundamentals</p>
+            <p>A master of classic techniques with over 20 years in five-star kitchens worldwide.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor2.jpg" alt="Chef Mark Lee">
+            <h3>Chef Mark Lee</h3>
+            <p>Culinary Fundamentals</p>
+            <p>Known for his precision and modern twists on traditional meals, Chef Daniel brings innovation to basics.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-3.jpg" alt="Chef Aiko Tanaka">
+            <h3>Chef Aiko Tanaka</h3>
+            <p>International Cuisine</p>
+            <p>Trained in Tokyo and Paris, Chef Aiko fuses Asian flair with European technique beautifully.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-4.jpg" alt="Chef Redante Rossi">
+            <h3>Chef Redante Rossi</h3>
+            <p>International Cuisine</p>
+            <p>Italian-born globetrotter with a passion for authentic street foods and gourmet presentations.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-5.jpg" alt="Chef Annie Reyes">
+            <h3>Chef Annie Reyes</h3>
+            <p>Pastry & Baking</p>
+            <p>A pastry perfectionist specializing in chocolate, plated desserts, and sugar artistry.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-6.jpg" alt="Chef Nathaniel Cruz">
+            <h3>Chef Nathaniel Cruz</h3>
+            <p>Pastry & Baking</p>
+            <p>Bread-making wizard and cake sculptor with a flair for creativity and teaching.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-7.jpg" alt="Chef Liza de la Peña">
+            <h3>Chef Liza de la Peña</h3>
+            <p>Filipino Cuisine</p>
+            <p>Celebrated for reviving heirloom Filipino recipes and mentoring aspiring home cooks.</p>
+          </div>
+          <div class="instructor-card">
+            <img src="images/instructor-8.jpg" alt="Chef June Bautista">
+            <h3>Chef June Bautista</h3>
+            <p>Filipino Cuisine</p>
+            <p>Combines tradition and innovation, making Filipino dishes shine in modern gastronomy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Starchef Academy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

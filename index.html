@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starchef Academy - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">Starchef Academy</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="instructors.html" class="nav-link">Instructors</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="enroll.html" class="nav-link">Enroll</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Master the Art of Cooking</h1>
+          <p>Join Starchef Academy and transform your passion for cooking into professional culinary skills.</p>
+          <div class="hero-buttons">
+            <a href="courses.html" class="btn btn-primary">Explore Courses</a>
+            <a href="enroll.html" class="btn btn-secondary">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Courses</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="images/culinary-pic.jpg" alt="Culinary Fundamentals">
+            <div class="card-content">
+              <h3>Culinary Fundamentals</h3>
+              <p>Master essential cooking techniques and knife skills that form the foundation of professional cooking.</p>
+              <div class="course-duration">8 Weeks</div>
+              <div class="course-price">$299</div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/international-pic.jpg" alt="International Cuisine">
+            <div class="card-content">
+              <h3>International Cuisine</h3>
+              <p>Explore flavors from around the world and create authentic dishes from various cultures.</p>
+              <div class="course-duration">10 Weeks</div>
+              <div class="course-price">$399</div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/pastry-course.jpg" alt="Pastry & Baking">
+            <div class="card-content">
+              <h3>Pastry & Baking</h3>
+              <p>Learn the art of baking from basic breads to elaborate cakes and desserts.</p>
+              <div class="course-duration">12 Weeks</div>
+              <div class="course-price">$449</div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/filipino-course.jpg" alt="Filipino Cuisine">
+            <div class="card-content">
+              <h3>Filipino Cuisine</h3>
+              <p>Discover the rich flavors and traditional cooking methods of authentic Filipino dishes.</p>
+              <div class="course-duration">6 Weeks</div>
+              <div class="course-price">$249</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--secondary);">
+      <div class="container">
+        <h2 class="section-title">Why Choose Starchef Academy</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="card-content">
+              <h3>Expert Instructors</h3>
+              <p>Learn from professional chefs with years of industry experience and passion for teaching.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Small Class Sizes</h3>
+              <p>Enjoy personalized attention with our small class sizes and hands-on learning approach.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>State-of-the-Art Facilities</h3>
+              <p>Practice in our modern kitchen equipped with professional-grade equipment.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Industry Recognition</h3>
+              <p>Gain credentials recognized by top restaurants and culinary institutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Student Success Stories</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="images/landing-pic1.jpg" alt="Sarah Johnson">
+            <div class="card-content">
+              <h3>Sarah Johnson</h3>
+              <div class="stars">★★★★★</div>
+              <p>"Starchef Academy transformed my cooking completely! I went from burning water to creating restaurant-quality dishes."</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/landing-pic2.jpg" alt="Michael Chen">
+            <div class="card-content">
+              <h3>Michael Chen</h3>
+              <div class="stars">★★★★★</div>
+              <p>"The International Cuisine course opened my eyes to flavors I never knew existed."</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/landing-pic3.jpg" alt="Emily Rodriguez">
+            <div class="card-content">
+              <h3>Emily Rodriguez</h3>
+              <div class="stars">★★★★★</div>
+              <p>"The Pastry & Baking program exceeded all my expectations. I’m now confident making everything from croissants to wedding cakes!"</p>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="testimonials.html" class="btn btn-secondary">View All Testimonials</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--light-gray);">
+      <div class="container">
+        <h2 class="section-title">Popular Recipes</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="images/landing-recipe1.jpg" alt="Beef Wellington">
+            <div class="card-content">
+              <h3>Beef Wellington</h3>
+              <p>Tender beef wrapped in flaky pastry with mushroom duxelles.</p>
+              <a href="recipes.html" class="btn btn-secondary">View Recipe</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/landing-recipe2.jpg" alt="Chocolate Soufflé">
+            <div class="card-content">
+              <h3>Chocolate Soufflé</h3>
+              <p>Light and airy chocolate dessert that melts in your mouth.</p>
+              <a href="recipes.html" class="btn btn-secondary">View Recipe</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/landing-recipe3.jpg" alt="Chicken Adobo">
+            <div class="card-content">
+              <h3>Chicken Adobo</h3>
+              <p>The Philippines' national dish braised in soy sauce and vinegar.</p>
+              <a href="recipes.html" class="btn btn-secondary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Starchef Academy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

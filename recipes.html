@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starchef Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">Starchef Academy</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="instructors.html" class="nav-link">Instructors</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="recipes.html" class="nav-link active">Recipe</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="enroll.html" class="nav-link">Enroll</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title">Recipe Collection</h1>
+
+        <h2 class="recipe-category">Culinary Fundamentals</h2>
+        <div class="grid grid-4">
+          <div class="card recipe-card">
+            <img src="images/recipe-egg.jpg" alt="Perfect Scrambled Eggs">
+            <div class="card-content">
+              <h3>Perfect Scrambled Eggs</h3>
+              <p>Creamy, restaurant-quality eggs made simple.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/recipe-pan-chicken.jpg" alt="Pan-Seared Chicken">
+            <div class="card-content">
+              <h3>Pan-Seared Chicken</h3>
+              <p>Juicy chicken with crispy golden skin.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/-basic-knife.jpg" alt="Basic Knife Cuts">
+            <div class="card-content">
+              <h3>Basic Knife Cuts</h3>
+              <p>Learn the fundamentals of knife techniques.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/homemade-stock.jpg" alt="Homemade Stock">
+            <div class="card-content">
+              <h3>Homemade Stock</h3>
+              <p>Rich stock as a foundation for many dishes.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="recipe-category">International Cuisine</h2>
+        <div class="grid grid-4">
+          <div class="card recipe-card">
+            <img src="images/beef-recipe.jpg" alt="Beef Wellington">
+            <div class="card-content">
+              <h3>Beef Wellington</h3>
+              <p>Classic dish with tender beef wrapped in pastry.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/pad-thai.jpg" alt="Pad Thai">
+            <div class="card-content">
+              <h3>Authentic Pad Thai</h3>
+              <p>Thai stir-fried noodles with shrimp and peanuts.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/Risotto-Milanese.jpg" alt="Risotto Milanese">
+            <div class="card-content">
+              <h3>Risotto Milanese</h3>
+              <p>Creamy saffron-infused rice with parmesan.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/Street-Tacos.jpg" alt="Street Tacos">
+            <div class="card-content">
+              <h3>Mexican Street Tacos</h3>
+              <p>Beef tacos with onion, cilantro, and lime.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="recipe-category">Pastry & Baking</h2>
+        <div class="grid grid-4">
+          <div class="card recipe-card">
+            <img src="images/Chocolate-Soufflé.jpg" alt="Chocolate Soufflé">
+            <div class="card-content">
+              <h3>Chocolate Soufflé</h3>
+              <p>Light and airy chocolate dessert.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/French-Croissants.jpg" alt="French Croissants">
+            <div class="card-content">
+              <h3>French Croissants</h3>
+              <p>Flaky, buttery pastries worthy of Paris.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/tiramisu1.jpg" alt="Tiramisu">
+            <div class="card-content">
+              <h3>Classic Tiramisu</h3>
+              <p>Layers of mascarpone and espresso-soaked ladyfingers.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/Sourdough-Bread.jpg" alt="Sourdough Bread">
+            <div class="card-content">
+              <h3>Artisan Sourdough</h3>
+              <p>Traditional sourdough with crusty texture and tangy flavor.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="recipe-category">Filipino Cuisine</h2>
+        <div class="grid grid-4">
+          <div class="card recipe-card">
+            <img src="images/chiken-adobo.jpg" alt="Chicken Adobo">
+            <div class="card-content">
+              <h3>Chicken Adobo</h3>
+              <p>Philippine national dish with soy and vinegar.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/lumpia.jpg" alt="Lumpia">
+            <div class="card-content">
+              <h3>Fresh Lumpia</h3>
+              <p>Spring rolls filled with vegetables and meat.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/pancit.jpg" alt="Pancit">
+            <div class="card-content">
+              <h3>Pancit Canton</h3>
+              <p>Stir-fried noodles with vegetables and meat.</p>
+            </div>
+          </div>
+          <div class="card recipe-card">
+            <img src="images/leche-flan.jpg" alt="Leche Flan">
+            <div class="card-content">
+              <h3>Leche Flan</h3>
+              <p>Caramel custard dessert that melts in your mouth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Starchef Academy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

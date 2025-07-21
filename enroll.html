@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starchef Academy </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">Starchef Academy</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="instructors.html" class="nav-link">Instructors</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="recipes.html" class="nav-link">Recipe</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="enroll.html" class="nav-link active">Enroll</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title">Enroll Now</h1>
+        <p style="text-align: center; max-width: 600px; margin: auto;">Fill out the form below to reserve your spot in one of our exciting culinary courses. Our team will contact you with confirmation and next steps.</p>
+
+        <form class="enroll-form">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+              <option value="">-- Choose a course --</option>
+              <option value="Culinary Fundamentals">Culinary Fundamentals</option>
+              <option value="International Cuisine">International Cuisine</option>
+              <option value="Pastry & Baking">Pastry & Baking</option>
+              <option value="Filipino Cuisine">Filipino Cuisine</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message (Optional)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Enrollment</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Starchef Academy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
